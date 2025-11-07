@@ -1,0 +1,31 @@
+Starting KV server on 0.0.0.0:8080 (threads=8, cache=1, db_pool=4)
+db_init: connection 0 OK
+db_init: connection 1 OK
+db_init: connection 2 OK
+db_init: connection 3 OK
+Press Enter to stop server...
+db_put: OK key='decs'
+handle_post_kv: db_put OK for key='decs'
+handle_get_kv: looking up key='decs'
+handle_get_kv: cache HIT for key='decs'
+db_put: OK key='cs'
+handle_post_kv: db_put OK for key='cs'
+handle_get_kv: looking up key='cs'
+handle_get_kv: cache HIT for key='cs'
+handle_get_kv: looking up key='decs'
+handle_get_kv: cache MISS for key='decs'
+db_get: OK key='decs' len=18
+handle_get_kv: db_get OK for key='decs' len=18
+handle_get_kv: looking up key='cs'
+handle_get_kv: cache MISS for key='cs'
+db_get: OK key='cs' len=18
+handle_get_kv: db_get OK for key='cs' len=18
+handle_get_kv: looking up key='cs'
+handle_get_kv: cache HIT for key='cs'
+handle_get_kv: looking up key='decs'
+handle_get_kv: cache MISS for key='decs'
+db_get: OK key='decs' len=18
+handle_get_kv: db_get OK for key='decs' len=18
+handle_get_kv: looking up key='decs'
+handle_get_kv: cache HIT for key='decs'
+db_delete: OK key='decs'
