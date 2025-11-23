@@ -32,7 +32,7 @@ This project implements a high-performance **HTTP-based Key-Value (KV) Server** 
 -Get Popular: Repeated GETs for a small set of keys → Cache-bound (CPU/memory intensive)
 -Mixed Workload: Combination of GET, POST, DELETE with configurable ratios
 
-**Build the loadgen.c:**
+### **Build the loadgen.c:**
 -gcc -O2 -g -Wall -Wextra -std=gnu11 -pthread -o loadgen src/loadgen.c -lcurl
 **To run:**
 -taskset -c 4-7 ./loadgen --target http://127.0.0.1:8080 --duration 20 --threads 4 --rate 200 --keyspace 1000 --value-size 64 --csv-out out.csv
