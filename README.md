@@ -1,22 +1,22 @@
-# 🚀 KV-Server Performance Analysis
+# KV-Server Performance Analysis
 **Author:** Kumar Rajnish  
 **ID:** 25M2123  
 **Course:** DECS (CS744)
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 This project implements a high-performance **HTTP-based Key-Value (KV) Server** in **C**, featuring:
-- 🧠 **In-memory caching** for fast access (LRU replacement)
-- 💾 **Persistent storage** using PostgreSQL
-- 🌐 **RESTful API** supporting **GET, POST, DELETE**
-- 🔥 **Configurable multi-threaded load generator**
-- 🧵 **Pthreads-based server concurrency**
-- 🖥 **CPU core pinning (taskset)** for client-server resource isolation
+- **In-memory caching** for fast access (LRU replacement)
+- **Persistent storage** using PostgreSQL
+- **RESTful API** supporting **GET, POST, DELETE**
+- **Configurable multi-threaded load generator**
+- **Pthreads-based server concurrency**
+- **CPU core pinning (taskset)** for client-server resource isolation
 
 ---
 
-## 🏛 System Architecture Overview
+## System Architecture Overview
 
 ### **Server**
 - Uses **CivetWeb HTTP server library**
