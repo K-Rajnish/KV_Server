@@ -1,6 +1,4 @@
 # KV-Server Performance Analysis
-**Author:** Kumar Rajnish  
-**ID:** 25M2123  
 **Course:** DECS (CS744)
 
 ---
